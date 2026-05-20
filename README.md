@@ -17,17 +17,6 @@ A production-pattern authentication system with secure password hashing, JWT tok
 - **Security**: OAuth2PasswordBearer, Dependency Injection, bcrypt → Argon2 upgrade
 - **Storage**: JSON file (learning) → PostgreSQL (next project)
 
-## 📦 Local Setup
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Run backend
-uvicorn src.main:app --reload
-
-# Run frontend (new terminal)
-streamlit run frontend/login_ui.py
-
 
 ## 📸 Screenshots
 
@@ -39,3 +28,16 @@ streamlit run frontend/login_ui.py
 
 ### API Documentation
 ![API Docs](screenshots/api-docs.png)
+
+
+## 📦 Local Setup
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run backend
+uvicorn src.main:app --reload
+
+# Run frontend (new terminal)
+streamlit run frontend/login_ui.py
+
